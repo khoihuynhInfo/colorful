@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('/fonts/Roboto-Light.ttf.ttf') format('truetype');
+}
+
+
+h2 {
+  position: absolute;
+  top: 20%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 300px;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'RobotoBold' , sans-serif;
+}
+
+p {
+  font-family: 'RobotoLight' , sans-serif;
+}
+
+button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 9px;
+  background-color: #f7cac9;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  width: 40px !important;
+  height: 40px !important;
+  left: 15px !important;
+  top: 10px !important;
+  color: #333; 
+}
+
